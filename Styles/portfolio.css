@@ -1,31 +1,52 @@
 /* nav realed styles */
-body{
+body {
     font-family: "Open Sans", sans-serif;
 }
-nav{
+
+nav {
     display: flex;
+    justify-content: space-between;
 }
-.navtitle{
+
+.navtitle {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    align-items: center;
+    
+
 }
-.primary-color{
-    color:#FD6E0A;
+
+.primary-color {
+    color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #fd6e0a;
-}
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    padding: 18px 35px 19px 36px;
 
+
+}
