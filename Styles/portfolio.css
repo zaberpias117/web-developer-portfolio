@@ -6,6 +6,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0px 230px 0px 226px;
 }
 
 .navtitle {
@@ -13,7 +14,7 @@ nav {
     font-size: 45px;
     font-weight: 800;
     align-items: center;
-    
+
 
 }
 
@@ -39,9 +40,6 @@ nav a {
 .btn-primary {
     border-radius: 5px;
     background: #fd6e0a;
-    width: 150px;
-    height: 64px;
-    flex-shrink: 0;
     color: var(--White-Color, #FFF);
     font-size: 20px;
     font-weight: 700;
@@ -49,4 +47,20 @@ nav a {
     padding: 18px 35px 19px 36px;
 
 
+}
+
+/* Header related styles */
+header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.profile-pic {
+    margin-left: 43%;
+    width: 584px;
+    height: 600px;
 }
