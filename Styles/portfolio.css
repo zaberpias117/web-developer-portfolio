@@ -1,12 +1,13 @@
 /* nav realed styles */
 body {
     font-family: "Open Sans", sans-serif;
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0px 230px 0px 226px;
+    margin: 0px 200px;
 }
 
 .navtitle {
@@ -14,8 +15,6 @@ nav {
     font-size: 45px;
     font-weight: 800;
     align-items: center;
-
-
 }
 
 .primary-color {
@@ -52,15 +51,22 @@ nav a {
 /* Header related styles */
 header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .banner {
     padding: 30px 30px 30px 150px;
     display: flex;
+    width: 1600px;
+    height: 837px;
+    flex-shrink: 0;
 }
 
 .profile-pic {
-    margin-left: 43%;
-    width: 584px;
+    /* width: 500px; */
     height: 600px;
+    margin-left: 370px;
+
 }
