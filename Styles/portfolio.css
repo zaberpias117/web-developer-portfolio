@@ -8,6 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
+    align-items: center;
 }
 
 .navtitle {
@@ -44,8 +45,7 @@ nav a {
     font-weight: 700;
     border: 0px;
     padding: 18px 35px 19px 36px;
-
-
+    /* margin-top: 30px; */
 }
 
 /* Header related styles */
@@ -53,20 +53,95 @@ header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-}
-
-.banner {
-    padding: 30px 30px 30px 150px;
-    display: flex;
+    background-position: bottom right;
     width: 1600px;
     height: 837px;
     flex-shrink: 0;
 }
 
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    /* width: 1600px; */
+    /* height: 837px; */
+    justify-content: space-between;
+    padding: auto;
+}
+
 .profile-pic {
-    /* width: 500px; */
-    height: 600px;
-    margin-left: 370px;
+    width: 584px;
+    height: 654px;
+}
+
+.banner-greeting {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.baneer-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.banner-discription {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    max-width: 450px;
+}
+
+/* main section style */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section style */
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about {
+    padding: 140px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
+.about-info-container {
+    display: flex;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    gap: 50px;
+    justify-content: space-around;
+
+}
+
+.bg-of-text {
+    display: flex;
+    width: 827px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #000;
+    background: #FFF;
 
 }
