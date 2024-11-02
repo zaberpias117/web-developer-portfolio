@@ -185,11 +185,69 @@ main {
     line-height: 28px;
     padding: 20px 33px 30px 33px;
 }
-.skill{
+
+.skill {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     background: #FFF;
 }
-main section{
+
+main section {
     margin-top: 130px;
+}
+
+/* Resume content starts from here */
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.Resume-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+
+}
+
+.resume-item-institude {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+hr {
+    background: #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.download-CV{
+    text-align: center;
+    margin-top: 50px;
 }
