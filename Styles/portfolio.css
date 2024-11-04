@@ -247,13 +247,68 @@ hr {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.download-CV{
+
+.download-CV {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer style */
-footer{
-    display:flex;
-    background-color:#FFF8F3;
+footer {
+    display: flex;
+    background-color: #FFF8F3;
     padding: 130px 200px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact,
+input,
+textarea {
+    display: block;
+}
+
+.footer-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* nicherta eivabeu lekha jai */
+/* .contact input[type="text"],
+.contact input[type="email"],
+textarea */
+.text,
+.email,
+textarea {
+    border-radius: 5px;
+    background: #FFF;
+    width: 461px;
+    height: 64px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 30px 18px;
+    margin: 24px;
+    border: none;
+    
+    
+}
+
+textarea {
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
 }
