@@ -51,9 +51,9 @@ nav a {
 /* Header related styles */
 header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
     width: 1600px;
     height: 837px;
     flex-shrink: 0;
@@ -66,6 +66,7 @@ header {
     /* height: 837px; */
     justify-content: space-between;
     padding: auto;
+    margin-left:71px;
 }
 
 .profile-pic {
